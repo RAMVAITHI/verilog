@@ -1,0 +1,7 @@
+module NAND_Gate(A,B,Y);
+  input A,B;
+  output Y;
+   wire y1;
+  and (A,B,y1);
+  not (Y,y1);
+endmodule
